@@ -11,4 +11,6 @@ Mostrar informe sobre la actividad de la Cadeteria.*/
 //CORRECCION: Cada Cliente forma parte de 1Pedido
             //Cada Cadete puede tener 1 o +1Pedido
 
+//CARGAR LISTADO DE CADETES POR CSV (datos precargados tipo excel separados por coma)
+
 Console.WriteLine("Hello, World!");
