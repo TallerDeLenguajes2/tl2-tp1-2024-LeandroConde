@@ -9,4 +9,25 @@ public class Cadete
     public float JornalACobrar(){
         
     }
+
+    public void TomarPedido(){
+
+    }
+    public void ConfirmarPedido(){
+
+    }
+
+    public void RechazarPedido(){
+
+    }
+    public void CambiarPedido(){
+
+    }
+    public void EstadoPedido(){
+
+    }
+    public void EnviarInforme(){
+        
+    }
+
 }
