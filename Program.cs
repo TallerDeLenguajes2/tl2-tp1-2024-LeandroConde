@@ -13,6 +13,9 @@ Mostrar informe sobre la actividad de la Cadeteria.*/
 
 //CARGAR LISTADO DE CADETES POR CSV (datos precargados tipo excel separados por coma)
 
+Cadeteria CadeteriaYa = new Cadeteria();
+
+
 Console.WriteLine("Bienvenido a Cadeteria Ya!");
 Console.WriteLine("1-Alta Pedido");
 Console.WriteLine("2-Asignar Cadete");
