@@ -1,0 +1,88 @@
+-Cadeteria tiene una "relacion compuesta" por Cadetes.
+-Cadete tiene una "relacion compuesta" por Pedidos.
+-Pedido tiene una "relacion compuesta" por Cliente.
+
+Medtodos Cadeteria:
+    AsignarPedido();
+    ReasignarPedido();
+    MostrarInformePedido();
+
+
+Metodos Cadete:
+    TomarPedido();
+    ConfirmarPedido();
+    RechazarPedido();
+    CambiarPedido();
+    EstadoPedido();
+    EnviarInforme();
+
+-Teniendo en cuenta los principios de "Abstraccion" y "Ocultamiento", los atributos, propiedades y metodos serian:
+    Publicos:
+        Cadeteria:
+            ListadoCadetes
+        Cadete:
+            Nombre
+            Direccion
+            Telefono
+            ListadoPedidos
+        Pedidos:
+            Nro
+            Obs
+            Estado
+            VerDireccionCliente();
+        Cliente
+            Direccion
+            Telefono
+            DatosReferenciaDireccion
+
+    Privados:
+        Cadeteria:
+            Nombre
+            Telefono
+        Cadete:
+            Id
+            JornalACobrar();
+        Pedidos:
+            Cliente
+            VerDatosCliente();
+        Cliente:
+            Nombre
+
+-Constructores:
+
+    Cadeteria:
+        public Cadeteria(){
+            Nombre= cadete.Nombre;
+            Telefono= cadete.Telefono;
+            ListadoCadetes= List<Cadete>;
+        }
+    Cadete:
+        public Cadete(){
+            //Id es AUTOiNCREMENT
+            Nombre = System.Console.WriteLine();
+            Direccion = System.Console.WriteLine();
+            Telefono = System.Console.WriteLine();
+            ListadoPedidos= List<Pedidos>;
+        }
+    Pedidos:
+        public Pedidos(){
+            //Nro es AUTOINCREMENT
+            Obs =System.Console.WriteLine();; //puede ser NULL
+            Cliente = Cliente; //se asigna nombreCliente?
+            Estado=; //Es un BOOL y puede estar como "Entregado" o NoEntregado"
+        }
+    Cliente:
+        public Cliente(){
+            Nombre = System.Console.WriteLine();
+            Direccion= System.Console.WriteLine();
+            Telefono = System.Console.WriteLine();
+            DatosReferenciaDireccion = System.Console.WriteLine(); //puede ser NULL
+        }
+
+-Diseño de Clases:
+
+Cliente ->Cadeteria
+Cadeteria -> Cadete
+Cadeteria -> Pedidos
+Cadete -> Pedidos
+Pedidos -> Cliente
