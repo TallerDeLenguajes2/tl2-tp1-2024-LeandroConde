@@ -24,3 +24,5 @@ Console.WriteLine("2-Asignar Cadete");
 Console.WriteLine("3-Cambiar Estado Pedido");
 Console.WriteLine("4-Reasignar Pedido a Cadete");
 System.Console.WriteLine("5-Generar Informe Jornada.");
+
+//agregar nuevas funcionalidades para obtener datos desde archivos CSV o JSON
