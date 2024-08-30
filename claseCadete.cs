@@ -7,7 +7,8 @@ public class Cadete
     // public int ListadoPedidos;
 
     public float JornalACobrar(){
-        
+        float jornalCobrar=0;//ejemplo
+        return jornalCobrar;
     }
 
     public void TomarPedido(){
