@@ -5,10 +5,16 @@ public class Pedidos
     public int Cliente;
     public bool estado;
 
+    
     public string VerDireccionCliente(){
 
     }
     public string VerDatosCliente(){
         
+    }
+
+    //referencia a clase Cadete
+    public void verDatosCadeteACargo(){
+
     }
 }

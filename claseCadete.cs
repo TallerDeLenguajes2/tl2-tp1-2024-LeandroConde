@@ -4,7 +4,7 @@ public class Cadete
     public string Nombre;
     public string Direccion;
     public int Telefono;
-    public int ListadoPedidos;
+    // public int ListadoPedidos;
 
     public float JornalACobrar(){
         
