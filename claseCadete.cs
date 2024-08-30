@@ -1,9 +1,9 @@
 public class Cadete
 {
-    public int Id;
-    public string Nombre;
-    public string Direccion;
-    public int Telefono;
+    public int Id {get; set;}
+    public string Nombre {get; set;}
+    public string Direccion {get; set;}
+    public int Telefono {get; set;}
     // public int ListadoPedidos;
 
     public float JornalACobrar(){

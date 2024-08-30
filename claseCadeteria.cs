@@ -1,8 +1,8 @@
 public class Cadeteria
 {
-    public string Nombre;
-    public string Telefono;
-    public int ListadoCadetes;
+    public string Nombre {get; set;}
+    public string Telefono {get; set;}
+    public int ListadoCadetes {get; set;}
 
     public int ListadoPedidos; //contiene todos los pedidos que se van generando
 

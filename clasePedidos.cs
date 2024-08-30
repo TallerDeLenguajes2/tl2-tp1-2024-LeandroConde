@@ -1,9 +1,9 @@
 public class Pedidos
 {
-    public int Nro;
-    public string Obs;
-    public int Cliente;
-    public bool estado;
+    public int Nro {get; set;}
+    public string Obs {get; set;}
+    public int Cliente {get; set;}
+    public bool estado {get; set;}
 
     
     public string VerDireccionCliente(){

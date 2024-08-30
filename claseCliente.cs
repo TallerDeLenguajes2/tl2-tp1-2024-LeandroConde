@@ -1,6 +1,13 @@
 public class Cliente{
-    public string Nombre;
-    public string Direccion;
-    public int Telefono;
-    public string DatosReferenciaDireccion;
+    public string Nombre {get; set;}
+    public string Direccion {get; set;}
+    public int Telefono {get; set;}
+    public string DatosReferenciaDireccion {get; set;}
+
+    public void HacerPedido(){
+
+    }
+    public void RecibirPedido(){
+        
+    }
 }
